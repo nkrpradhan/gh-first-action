@@ -19,3 +19,4 @@ jobs:
         with:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH }}
           NETLIFY_DEPLOY_TO_PROD: true
+          build_directory: "dist"
